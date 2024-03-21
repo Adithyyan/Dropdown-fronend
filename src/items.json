@@ -1,0 +1,114 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Fruits & vegitables",
+        "subcategories": [
+          { "id": 11, "name": "Fresh Vegitables",
+          "subcategories1": [
+            { "id": 12, "name": "Potato, Onion & Tomato" },
+            { "id": 13, "name": "Cucumber & Capsicum" },
+            { "id": 14, "name": "Root Vegitables" }
+          ] 
+          },
+          { "id": 12,
+            "name": "Herbs & Seasonings" ,
+          "subcategories1": [
+            { "id": 121, "name": "Subcategory1" },
+            { "id": 122, "name": "Subcategory1" }
+          ]
+          },
+          { "id": 13, "name": "Fresh Fruits" },
+          { "id": 14, "name": "Organic Fruits & Vegitables" },
+          { "id": 14, "name": "Cuts & Sprouts" },
+          { "id": 14, "name": "Exotic Fruits & Veggies" },
+          { "id": 14, "name": "Flower Bouquets,Bunchers" }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Foodgrains, Oil & Masala",
+        "subcategories": [
+         { "id": 13, "name": "Sun Flour Oil",
+         "subcategories1": [
+          { "id": 15, "name": "coconut oil" },
+          { "id": 16, "name": "Cashue oil" },
+          { "id": 17, "name": "badam oil" }
+         ] 
+         }
+
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Bakery, Cakes & Diary",
+        "subcategories": [
+         
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Beverages",
+        "subcategories": [
+         
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Snacks & Branded Foods",
+        "subcategories": [
+         
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Beauty & Hygiene",
+        "subcategories": [
+         
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Cleaning & Household",
+        "subcategories": [
+         
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Kitchen,Garden & Pets",
+        "subcategories": [
+         
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Eggs,Meat & Fish",
+        "subcategories": [
+         
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Gourment & World Food",
+        "subcategories": [
+         
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Baby Care",
+        "subcategories": [
+         
+        ]
+      },
+      {
+        "id": 12,
+        "name": "View All",
+        "subcategories": [
+         
+        ]
+      }
+    ]
+  }
+  

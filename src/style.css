@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #ecf0f1;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  background-color: #ecf0f1;
+  padding: 2rem 0;
+}
+
+.green {
+  background-color: #85C225;
+}
+
+.arrow {
+  margin-left: 32px;
+  color: white;
+}
+
+.offer {
+  color: black;
+}
+
+/* .heading {
+  display: flex;
+} */
+
+/* .offer {
+  margin-top: 7px;
+  margin-left: 10px;
+} */
+
+nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.menu > li, .menu > a {
+  display: inline-block;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 1.5rem;
+  transition: background-color .22s ease, color .22 ease ;
+}
+
+.menu a:hover {
+  background-color: lightgray;
+}
+
+ .submenu {
+  width: 230px;
+} 
+
+.submenu2 {
+  width: 250px;
+  
+}
+
+.submenu3 {
+  width: 250px;
+}
+
+/* .submenu3 {
+  position: absolute;
+  left: 100%;
+  width: 230px;
+  top: 0;
+  background-color: white;
+  color: black;
+  font-size: medium;
+  display: none;
+} */
+
+.menu li:hover > .submenu {
+  display: block;
+  animation: slideup .3s ease;
+}
+
+.submenu li:hover > .submenu2 {
+  display: block;
+  animation: slideleft .3s ease;
+}
+
+.submenu2 li:hover > .submenu3 {
+  display: block;
+  animation: slideleft .3s ease;
+}
+
+
+
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slideleft {
+  0% {
+    opacity: 0;
+    transform: translateX(18px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
